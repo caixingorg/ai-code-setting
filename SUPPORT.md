@@ -1,5 +1,7 @@
 # 支持说明
 
+[中文](SUPPORT.md) | [English](SUPPORT.en.md)
+
 ## 使用帮助
 
 如需了解安装、命令参数与配置方式，请先阅读 [README.md](README.md)。

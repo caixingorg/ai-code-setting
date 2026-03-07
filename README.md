@@ -2,6 +2,11 @@
 
 将单次使用的 AI SOP 初始化脚本升级为可发布、可复用的 Node.js CLI。
 
+[中文](README.md) | [English](README.en.md)
+
+- 仓库地址：[caixingorg/ai-code-setting](https://github.com/caixingorg/ai-code-setting)
+- 问题反馈：[Issues](https://github.com/caixingorg/ai-code-setting/issues)
+
 ## 项目状态
 
 - 当前适合以早期公开项目方式发布
@@ -13,7 +18,7 @@
 ### 本地开发
 
 - `npm install`
-- `npm test`
+- `npm run test:ci`
 
 ### 全局安装
 
@@ -101,10 +106,14 @@
 ## 协作与支持
 
 - 贡献指南见 [CONTRIBUTING.md](CONTRIBUTING.md)
+- 英文贡献指南见 [CONTRIBUTING.en.md](CONTRIBUTING.en.md)
 - 行为约定见 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - 安全问题提交流程见 [SECURITY.md](SECURITY.md)
+- 英文安全说明见 [SECURITY.en.md](SECURITY.en.md)
 - 一般使用支持见 [SUPPORT.md](SUPPORT.md)
+- 英文支持说明见 [SUPPORT.en.md](SUPPORT.en.md)
 - 版本变更记录见 [CHANGELOG.md](CHANGELOG.md)
+- 英文总览见 [README.en.md](README.en.md)
 
 ## 发布检查清单
 
@@ -117,7 +126,7 @@
 
 ## 对外公开前建议
 
-- 补齐 `package.json` 中的 `repository`、`homepage`、`bugs`、`author`
+- 补齐 `package.json` 中尚未确定的 `author`
 - 配置 GitHub 仓库描述、topics、issue 模板与 PR 模板
 - 首次发布后使用 tag 和 release notes 维护版本历史
-- 如需更强可见性，建议补一个英文 README 或 `README.en.md`
+- 如需进一步国际化，可继续补充英文版行为准则与变更日志

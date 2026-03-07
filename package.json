@@ -16,7 +16,9 @@
     "bin",
     "src",
     "ai-sop-setup.js",
+    "README.en.md",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "scripts": {
@@ -43,5 +45,13 @@
     "prompt-engineering",
     "agent-skills"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caixingorg/ai-code-setting.git"
+  },
+  "homepage": "https://github.com/caixingorg/ai-code-setting#readme",
+  "bugs": {
+    "url": "https://github.com/caixingorg/ai-code-setting/issues"
+  },
   "license": "MIT"
 }

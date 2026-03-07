@@ -2,6 +2,8 @@
 
 感谢你帮助提升项目安全性。
 
+[中文](SECURITY.md) | [English](SECURITY.en.md)
+
 ## 支持范围
 
 当前默认关注 `main` 分支上的最新代码。

@@ -2,6 +2,8 @@
 
 感谢你为 ai-sop-setup 做出贡献。
 
+[中文](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md)
+
 ## 开始之前
 
 - 使用 Node.js 18.18 或更高版本
