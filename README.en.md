@@ -124,6 +124,5 @@ Upgrade a one-off AI SOP bootstrap script into a publishable, reusable Node.js C
 
 ## Remaining Public-Project Improvements
 
-- Fill the final maintainer-specific `author` field in `package.json`
 - Add repository badges, release notes, and GitHub topics
 - Extend bilingual support to the code of conduct and changelog if needed

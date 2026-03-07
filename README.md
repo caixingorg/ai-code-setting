@@ -117,16 +117,14 @@
 
 ## 发布检查清单
 
-- 运行 `npm test`
+- 运行 `npm run test:ci`
 - 运行 `npm pack --dry-run`
 - 确认 `package.json` 中的 `name` / `version` / `description` / `keywords` 正确
-- 如果准备公开发布，建议补齐 `repository`、`homepage`、`bugs`、`author`
 - 确认 npm 账号已登录：`npm whoami`
 - 正式发布：`npm publish`
 
 ## 对外公开前建议
 
-- 补齐 `package.json` 中尚未确定的 `author`
 - 配置 GitHub 仓库描述、topics、issue 模板与 PR 模板
 - 首次发布后使用 tag 和 release notes 维护版本历史
 - 如需进一步国际化，可继续补充英文版行为准则与变更日志
