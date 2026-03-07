@@ -1,0 +1,47 @@
+{
+  "name": "ai-sop-setup",
+  "version": "1.0.0",
+  "description": "Publishable CLI for bootstrapping multi-agent AI coding SOP rules, skills, and MCP config.",
+  "bin": {
+    "ai-sop-setup": "bin/ai-sop-setup.js"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "preferGlobal": true,
+  "exports": {
+    ".": "./src/index.js",
+    "./templates": "./src/templates.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "ai-sop-setup.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node bin/ai-sop-setup.js --help",
+    "test:ci": "npm run test && npm run smoke",
+    "prepublishOnly": "npm run test:ci"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "copilot",
+    "cursor",
+    "claude-code",
+    "gemini",
+    "codex",
+    "mcp",
+    "ai",
+    "automation",
+    "workflow",
+    "prompt-engineering",
+    "agent-skills"
+  ],
+  "license": "MIT"
+}
