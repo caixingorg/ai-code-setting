@@ -123,6 +123,12 @@
 - 确认 npm 账号已登录：`npm whoami`
 - 正式发布：`npm publish`
 
+详细发布材料：
+
+- GitHub Release 文案：[docs/releases/v1.0.0.zh-CN.md](docs/releases/v1.0.0.zh-CN.md)
+- 英文 Release 文案：[docs/releases/v1.0.0.md](docs/releases/v1.0.0.md)
+- npm 发布清单：[docs/releases/npm-publish-checklist.md](docs/releases/npm-publish-checklist.md)
+
 ## 对外公开前建议
 
 - 配置 GitHub 仓库描述、topics、issue 模板与 PR 模板

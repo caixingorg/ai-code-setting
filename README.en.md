@@ -122,6 +122,12 @@ Upgrade a one-off AI SOP bootstrap script into a publishable, reusable Node.js C
 - Verify npm auth with `npm whoami`
 - Publish with `npm publish`
 
+Detailed release materials:
+
+- Chinese GitHub Release copy: [docs/releases/v1.0.0.zh-CN.md](docs/releases/v1.0.0.zh-CN.md)
+- English GitHub Release copy: [docs/releases/v1.0.0.md](docs/releases/v1.0.0.md)
+- npm publish checklist: [docs/releases/npm-publish-checklist.md](docs/releases/npm-publish-checklist.md)
+
 ## Remaining Public-Project Improvements
 
 - Add repository badges, release notes, and GitHub topics
