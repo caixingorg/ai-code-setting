@@ -41,3 +41,6 @@ CLAUDE.local.md
 # Temporary files
 .tmp/
 tmp/
+
+# Local documentation
+docs/
