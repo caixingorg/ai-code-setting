@@ -1,6 +1,6 @@
 {
   "name": "ai-sop-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Publishable CLI for bootstrapping multi-agent AI coding SOP rules, skills, and MCP config.",
   "bin": {
     "ai-sop-setup": "bin/ai-sop-setup.js"
